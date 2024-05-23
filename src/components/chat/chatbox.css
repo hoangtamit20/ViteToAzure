@@ -1,0 +1,7 @@
+.message:hover .time-hidden {
+    display: block;
+}
+
+.time-hidden {
+    display: none;
+}

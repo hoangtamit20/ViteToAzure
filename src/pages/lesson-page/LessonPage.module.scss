@@ -1,0 +1,72 @@
+.containerLesson {
+    .wrapper {
+        margin: 30px 20px;
+
+        .loadingBox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        h3 span:hover {
+            font-weight: bold;
+        }
+
+        // .contentBox {
+        //     width: 100%;
+        //     height: 400px;
+        // }
+        .videoBox {
+            margin-bottom: 10px;
+            overflow: auto;
+
+            .video {
+                min-width: 100%;
+                max-height: 600px;
+                object-fit: contain; /* Ensure the video covers the container while maintaining aspect ratio */
+            }
+        }
+
+        .lessonContent {
+            margin: auto;
+            max-width: 700px;
+            width: 100%;
+            background-color: var(--main-pink-color-opacity);
+
+            .backgroundThumbnailBox {
+                position: relative;
+
+                .lessonThumbnail {
+                    position: absolute;
+                    width: 100%;
+                    height: auto;
+                    z-index: -5;
+                    opacity: 0.2;
+                    object-fit: cover;
+                }
+            }
+
+            .specificLesson {
+                border-top: 2px solid #d1d7dc;
+                color: rgb(222, 68, 94);
+                display: block;
+                padding: 20px;
+                text-decoration: none;
+                font-weight: 600;
+            }
+
+            .specificLesson:hover {
+                cursor: pointer;
+                background-color: rgb(214, 132, 146);
+                color: rgb(171, 89, 103);
+            }
+
+            .selectedLesson {
+                cursor: pointer;
+                background-color: rgba(214, 132, 146, 0.8);
+                color: white;
+            }
+        }
+    }
+}

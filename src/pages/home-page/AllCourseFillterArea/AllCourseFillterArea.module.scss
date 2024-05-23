@@ -1,0 +1,20 @@
+.bg {
+    background-color: var(--main-pink-color) !important;
+}
+
+.container {
+    box-shadow: 0 0 5px rgba(150, 150, 150, 0.8);
+
+    padding: 12px;
+    border-radius: 10px;
+    .wrapper {
+        margin-top: 15px;
+        margin-bottom: 10px;
+         
+        .searchBox {
+            margin-top: 15px;
+            display: flex;
+            column-gap: 15px;
+        }
+    }
+}

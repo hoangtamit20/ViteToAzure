@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    box-sizing: border-box;
+    // margin-bottom: 48px;
+    .wrapper {
+        box-shadow: 0 0 5px rgba(150, 150, 150, 0.8);
+        margin: 0 10px;
+        padding: 10px;
+        .pic {
+            width: 100%;
+            display: block;
+        }
+        .place-img:hover {
+            opacity: 0.6;
+        }
+        .body {
+            background-color: #fff;
+            padding: 16px;
+
+            .courseLink {
+                text-decoration: none;
+                color: var(--black-color);
+                font-size: 1rem;
+                font-weight: 700;
+            }
+            .title {
+                opacity: 0.6;
+                font-size: 0.8rem;
+                margin-bottom: 0;
+            }
+            .ratingWrapper {
+                .rating {
+                    font-size: 1rem;
+                    font-weight: 700;
+                }
+
+                .icon {
+                    padding-left: 2px;
+                    font-size: 1.2rem;
+                    margin-bottom: 4px;
+                    color: rgb(148, 76, 9);
+                }
+                .numberStar {
+                    margin-left: 6px;
+                    display: inline-block;
+                    font-size: 0.8rem;
+                }
+            }
+            .priceWrapper {
+                position: relative;
+                .price {
+                    font-size: 1.2rem;
+                }
+                .delPrice {
+                    position: absolute;
+                    top: 2px;
+                    margin-left: 5px;
+                    font-weight: bold;
+                    font-size: 1rem;
+                }
+            }
+            .btn {
+                border: none;
+                background-color: #f3f2b8;
+                color: var(--black-color);
+                text-decoration: none;
+                padding: 4px 15px;
+                margin-top: 10px;
+                display: inline-block;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.container {
+    position: relative;
+
+    .iconContainer {
+        position: absolute;
+        width: max-content;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .input {
+        padding-left: 40px;
+        vertical-align: middle;
+    }
+}
